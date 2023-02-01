@@ -1,0 +1,9 @@
+.projectImage {
+	width: 350px;
+	height: auto;
+}
+
+.features {
+	justify-content: space=space-between;
+	margin-left: 0;
+}
