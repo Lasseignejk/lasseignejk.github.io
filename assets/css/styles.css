@@ -1,9 +1,9 @@
 .projectImage {
-	width: 350px;
+	max-width: 350px;
 	height: auto;
 }
 
-.features {
-	justify-content: space=space-between;
-	margin-left: 0;
+.projectImage2 {
+	max-width: 330px;
+	height: auto;
 }
