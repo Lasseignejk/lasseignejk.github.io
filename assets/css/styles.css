@@ -1,9 +1,11 @@
 .projectImage {
 	max-width: 350px;
 	height: auto;
+	border-radius: 10px;
 }
 
 .projectImage2 {
 	max-width: 330px;
 	height: auto;
+	border-radius: 10px;
 }
