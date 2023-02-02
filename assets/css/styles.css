@@ -1,11 +1,52 @@
 .projectImage {
-	max-width: 350px;
+	/* max-width: 350px; */
+	width: 100%;
 	height: auto;
 	border-radius: 10px;
 }
 
 .projectImage2 {
-	max-width: 330px;
+	/* max-width: 330px; */
+	width: 95%;
 	height: auto;
 	border-radius: 10px;
+}
+
+body {
+	background: linear-gradient(
+		52deg,
+		rgba(217, 95, 24, 1) 0%,
+		rgba(17, 0, 128, 1) 100%
+	);
+}
+
+.techStackDiv {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 20px;
+}
+
+.tech-icon {
+	font-size: 80px;
+	color: darkgray;
+}
+
+.tech-icon:hover {
+	transform: scale(1.1);
+	color: black;
+}
+
+@media screen and (max-width: 1280px) {
+	.tech-icon {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.tech-icon {
+		font-size: 30px;
+	}
 }
